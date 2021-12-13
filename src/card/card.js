@@ -29,6 +29,9 @@ class Card {
 
 		/** @member {Rank} */
 		this.rank = rank;
+		
+		/** @member {absoluteVal}*/
+		this.absoluteVal = absoluteVal;
 
 		Object.freeze(this);
 	}
