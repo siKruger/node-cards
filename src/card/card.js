@@ -11,7 +11,7 @@ const props = new WeakMap();
  * @description The main class for representing a single card
  */
 class Card {
-	constructor(suit, rank) {
+	constructor(suit, rank, absoluteVal) {
 		if (! (suit instanceof Suit)) {
 			throw new Error('Card: Invalid card suit provided, must be an instance of Suit');
 		}
