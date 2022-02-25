@@ -6,6 +6,7 @@ const { PinochelDeck } = require('./pinochel');
 const { BarajaDeck } = require('./baraja');
 const { TarotDeck } = require('./tarot');
 const { PiquetDeck } = require('./piquet');
+const {WizardDeck} = require('./wizard');
 
 /**
  * @module decks
@@ -53,5 +54,10 @@ module.exports = {
 	 * @member PiquetDeck
 	 * @see PiquetDeck
 	 */
-	PiquetDeck
+	PiquetDeck,
+	/**
+	 * @member WizardDeck
+	 * @see WizardDeck
+	 */
+	WizardDeck
 };
