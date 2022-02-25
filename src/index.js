@@ -14,7 +14,7 @@ const {
 } = require('./ranks');
 
 const { Deck } = require('./deck');
-const { StandardDeck, MajorArcanaDeck, EuchreDeck, PinochelDeck, BarajaDeck, TarotDeck, PiquetDeck } = require('./decks');
+const { WizardDeck, StandardDeck, MajorArcanaDeck, EuchreDeck, PinochelDeck, BarajaDeck, TarotDeck, PiquetDeck } = require('./decks');
 
 // Always make sure this is imported last, as it has to populate maps defined in the suits file
 const unicode = require('./unicode');
@@ -65,7 +65,7 @@ module.exports = {
 	 */
 	decks: {
 		StandardDeck, MajorArcanaDeck, EuchreDeck,
-		PinochelDeck, BarajaDeck, TarotDeck, PiquetDeck
+		PinochelDeck, BarajaDeck, TarotDeck, PiquetDeck, WizardDeck
 	},
 	/**
 	 * @member Suit
