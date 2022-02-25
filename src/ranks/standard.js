@@ -7,7 +7,15 @@ const { Rank } = require('../rank');
  * @property shortName {'A'}
  * @property longName {'Ace'}
  */
-exports.ace  = new Rank('A',  'Ace');
+exports.ace  = new Rank('A',  'Ace', 14);
+
+/**
+ * @alias module:ranks.1
+ * @type {Rank}
+ * @property shortName {'1'}
+ * @property longName {'One'}
+ */
+exports.one = new Rank('1',  'One', 1);
 
 /**
  * @alias module:ranks.two
@@ -15,7 +23,7 @@ exports.ace  = new Rank('A',  'Ace');
  * @property shortName {'2'}
  * @property longName {'Two'}
  */
-exports.two = new Rank('2',  'Two');
+exports.two = new Rank('2',  'Two', 2);
 
 /**
  * @alias module:ranks.three
@@ -23,7 +31,7 @@ exports.two = new Rank('2',  'Two');
  * @property shortName {'3'}
  * @property longName {'Three'}
  */
-exports.three = new Rank('3',  'Three');
+exports.three = new Rank('3',  'Three', 3);
 
 /**
  * @alias module:ranks.four
@@ -31,7 +39,7 @@ exports.three = new Rank('3',  'Three');
  * @property shortName {'4'}
  * @property longName {'Four'}
  */
-exports.four = new Rank('4',  'Four');
+exports.four = new Rank('4',  'Four', 4);
 
 /**
  * @alias module:ranks.five
@@ -39,7 +47,7 @@ exports.four = new Rank('4',  'Four');
  * @property shortName {'5'}
  * @property longName {'Five'}
  */
-exports.five = new Rank('5',  'Five');
+exports.five = new Rank('5',  'Five', 5);
 
 /**
  * @alias module:ranks.six
@@ -47,7 +55,7 @@ exports.five = new Rank('5',  'Five');
  * @property shortName {'6'}
  * @property longName {'Six'}
  */
-exports.six = new Rank('6',  'Six');
+exports.six = new Rank('6',  'Six', 6);
 
 /**
  * @alias module:ranks.seven
@@ -55,7 +63,7 @@ exports.six = new Rank('6',  'Six');
  * @property shortName {'7'}
  * @property longName {'Seven'}
  */
-exports.seven = new Rank('7',  'Seven');
+exports.seven = new Rank('7',  'Seven', 7);
 
 /**
  * @alias module:ranks.eight
@@ -63,7 +71,7 @@ exports.seven = new Rank('7',  'Seven');
  * @property shortName {'8'}
  * @property longName {'Eight'}
  */
-exports.eight = new Rank('8',  'Eight');
+exports.eight = new Rank('8',  'Eight', 8);
 
 /**
  * @alias module:ranks.nine
@@ -71,7 +79,7 @@ exports.eight = new Rank('8',  'Eight');
  * @property shortName {'9'}
  * @property longName {'Nine'}
  */
-exports.nine = new Rank('9',  'Nine');
+exports.nine = new Rank('9',  'Nine', 9);
 
 /**
  * @alias module:ranks.ten
@@ -79,7 +87,31 @@ exports.nine = new Rank('9',  'Nine');
  * @property shortName {'10'}
  * @property longName {'Ten'}
  */
-exports.ten = new Rank('10', 'Ten');
+exports.ten = new Rank('10', 'Ten', 10);
+
+/**
+ * @alias module:ranks.ten
+ * @type {Rank}
+ * @property shortName {'10'}
+ * @property longName {'Ten'}
+ */
+exports.eleven = new Rank('11', 'Eleven', 11);
+
+/**
+ * @alias module:ranks.ten
+ * @type {Rank}
+ * @property shortName {'10'}
+ * @property longName {'Ten'}
+ */
+exports.twelve = new Rank('12', 'Twelve', 12);
+
+/**
+ * @alias module:ranks.ten
+ * @type {Rank}
+ * @property shortName {'10'}
+ * @property longName {'Ten'}
+ */
+exports.thirteen = new Rank('13', 'Thirteen', 13);
 
 /**
  * @alias module:ranks.jack
@@ -87,7 +119,7 @@ exports.ten = new Rank('10', 'Ten');
  * @property shortName {'J'}
  * @property longName {'Jack'}
  */
-exports.jack = new Rank('J',  'Jack');
+exports.jack = new Rank('J',  'Jack', 11);
 
 /**
  * @alias module:ranks.queen
@@ -95,7 +127,7 @@ exports.jack = new Rank('J',  'Jack');
  * @property shortName {'Q'}
  * @property longName {'Queen'}
  */
-exports.queen = new Rank('Q',  'Queen');
+exports.queen = new Rank('Q',  'Queen', 12);
 
 /**
  * @alias module:ranks.king
@@ -103,7 +135,7 @@ exports.queen = new Rank('Q',  'Queen');
  * @property shortName {'K'}
  * @property longName {'King'}
  */
-exports.king = new Rank('K',  'King');
+exports.king = new Rank('K',  'King', 13);
 
 /**
  * @alias module:ranks.joker
@@ -111,4 +143,20 @@ exports.king = new Rank('K',  'King');
  * @property shortName {'Joker'}
  * @property longName {'Joker'}
  */
-exports.joker = new Rank('Joker', 'Joker');
+exports.joker = new Rank('Joker', 'Joker', 0);
+
+/**
+ * @alias module:ranks.joker
+ * @type {Rank}
+ * @property shortName {'Joker'}
+ * @property longName {'Joker'}
+ */
+exports.wizard = new Rank('Wizard', 'Wizard', 14);
+
+/**
+ * @alias module:ranks.joker
+ * @type {Rank}
+ * @property shortName {'Joker'}
+ * @property longName {'Joker'}
+ */
+exports.fool = new Rank('Fool', 'Fool', -1);
