@@ -8,6 +8,7 @@ const props = new WeakMap();
  * @class Card
  * @param suit {Suit}
  * @param rank {Rank}
+ * @param absoluteVal {number}
  * @description The main class for representing a single card
  */
 class Card {
@@ -29,7 +30,10 @@ class Card {
 
 		/** @member {Rank} */
 		this.rank = rank;
-		
+
+		/**
+		 * DEPRECATED
+		 */
 		/** @member {absoluteVal}*/
 		this.absoluteVal = absoluteVal;
 
